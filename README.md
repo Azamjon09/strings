@@ -20,18 +20,18 @@ length – дарозии сатрро бармегардонад:
 ✅ length – дарозии сатрро бармегардонад:
 
 let text = "Салом";
-console.log(text.length);  // 5
+console.log(text.length);  
 
 ✅ charAt(index) – гирифтани ҳарф аз индекси муайян:
 
 let str = "JavaScript";
-console.log(str.charAt(0));  // "J"
-console.log(str.charAt(4));  // "S"
+console.log(str.charAt(0));  
+console.log(str.charAt(4));  
 
 ✅ at(index) – гирифтани ҳарф бо дастгирии индексҳои манфӣ:
 
 let str = "Салом";
-console.log(str.at(-1));  // "м"
+console.log(str.at(-1)); 
 
 
 ---
@@ -41,13 +41,13 @@ console.log(str.at(-1));  // "м"
 ✅ indexOf(substring) – ёфтани индекси бори аввал пайдошавии калима:
 
 let str = "Салом ҷаҳон!";
-console.log(str.indexOf("ҷаҳон"));  // 6
-console.log(str.indexOf("о"));  // 2
+console.log(str.indexOf("ҷаҳон"));  
+console.log(str.indexOf("о")); 
 
 ✅ lastIndexOf(substring) – ёфтани индекси охирини пайдошавии калима:
 
 let str = "Салом ҷаҳон, ҷаҳон!";
-console.log(str.lastIndexOf("ҷаҳон"));  // 13
+console.log(str.lastIndexOf("ҷаҳон"));  
 
 ✅ includes(substring) – санҷидани мавҷудияти як матн дар сатр (бармегардонад true ё false):
 
@@ -58,13 +58,12 @@ console.log(text.includes("JavaScript"));  // false
 ✅ startsWith(substring) – санҷидани оё сатр бо матни муайян оғоз мешавад:
 
 let str = "Салом, дунё!";
-console.log(str.startsWith("Салом"));  // true
-console.log(str.startsWith("дунё"));  // false
+console.log(str.startsWith("Салом")); 
+console.log(str.startsWith("дунё")); 
 
 ✅ endsWith(substring) – санҷидани оё сатр бо матни муайян анҷом меёбад:
 
-console.log(str.endsWith("дунё!"));  // true
-
+console.log(str.endsWith("дунё!")); 
 
 ---
 
@@ -73,43 +72,40 @@ console.log(str.endsWith("дунё!"));  // true
 ✅ toUpperCase() – табдил додани ҳамаи ҳарфҳо ба калон:
 
 let text = "салом";
-console.log(text.toUpperCase());  // "САЛОМ"
+console.log(text.toUpperCase());
 
 ✅ toLowerCase() – табдил додани ҳамаи ҳарфҳо ба хурд:
 
 let text = "САЛОМ";
-console.log(text.toLowerCase());  // "салом"
+console.log(text.toLowerCase());
 
 ✅ trim() – тоза кардани фосилаҳо аз аввал ва охири сатр:
 
 let text = "  салом  ";
-console.log(text.trim());  // "салом"
+console.log(text.trim());
 
 ✅ replace(oldText, newText) – иваз кардани матн дар сатр:
 
 let str = "Салом дунё!";
-console.log(str.replace("дунё", "ҷаҳон"));  // "Салом ҷаҳон!"
+console.log(str.replace("дунё", "ҷаҳон"));
 
 ✅ repeat(n) – такрор кардани сатр n маротиба:
 
 let word = "JavaScript ";
 console.log(word.repeat(3));  
-// "JavaScript JavaScript JavaScript "
 
-
----
 
 4. Методҳои пора кардани сатр
 
 ✅ slice(start, end) – буридани қисми муайян аз сатр:
 
 let text = "Барномасозӣ";
-console.log(text.slice(0, 6));  // "Барнома"
-console.log(text.slice(-4));  // "созӣ"
+console.log(text.slice(0, 6)); "
+console.log(text.slice(-4));  
 
 ✅ substring(start, end) – монанди slice(), вале индекси манфиро қабул намекунад:
 
-console.log(text.substring(0, 6));  // "Барнома"
+console.log(text.substring(0, 6)); 
 
 ✅ split(separator) – тақсим кардани сатр ба массив:
 
