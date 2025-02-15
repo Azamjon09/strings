@@ -121,6 +121,8 @@ console.log(words);  // ["Ман", "барномасоз", "ҳастам"]
 ---
 
 ![Screenshot 2025-02-15 004629](https://github.com/user-attachments/assets/dddcf792-c54f-4ccc-bfde-01a7cc503b2c)
-![Uploading Screenshot 2025-02-15 004807.png…]()
+
+![Screenshot 2025-02-15 005020](https://github.com/user-attachments/assets/e765e03f-639c-417e-8515-8d9905710992)
+
 
 
